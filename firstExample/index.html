@@ -1,0 +1,27 @@
+<doctype html>
+<html ng-app="todoApp">
+	<head>  
+  	<script src= "bower_components/angular/angular.js"></script>
+  	<script src= "bower_components/angular-route/angular-route.js"></script>
+  <style>
+  	.done-true {
+  	  text-decoration: line-through;
+  	  color: grey;
+    }
+    .ng-table {
+    border: 1px solid #000;
+}
+  </style>
+</head>
+
+<body>
+<h2>Todo</h2>
+    <div ng-view>
+    </div>	
+ 
+
+
+    <script src="app.js"></script>
+    <script src="app/controllers/controllers.js"></script>
+</body>
+<html>

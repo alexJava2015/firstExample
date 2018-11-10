@@ -3,7 +3,7 @@ angular.module('todoApp',['ngRoute']);
 angular.module('todoApp').config(['$routeProvider','$locationProvider',
 	function($routeProvider, $locationProvider){
 
-	$routeProvider.when('/', {
+	$routeProvider.when(' /', {
 		templateUrl:'app/views/main.html',
 		controller: 'MainController'
 	}).when('/todo', {
